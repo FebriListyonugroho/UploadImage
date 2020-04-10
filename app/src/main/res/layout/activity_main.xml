@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        tools:context=".MainActivity" android:orientation="vertical">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/background_user"
+            android:id="@+id/imageUpload"
+            android:padding="20dp"/>
+    <Button
+            android:text="Choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:textColor="#fff"
+            android:id="@+id/btnChoose"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"/>
+    <Button
+            android:text="Upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpload"
+            android:background="#03A9F4"
+            android:textColor="#fff"
+            android:padding="10dp"/>
+</LinearLayout>
